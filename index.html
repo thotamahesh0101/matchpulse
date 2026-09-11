@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MatchPulse — Premium Cricket Insights</title>
+  <meta name="description" content="Premium cricket pitch, weather, team and match analysis." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="bg-orb orb-one"></div>
+  <div class="bg-orb orb-two"></div>
+
+  <header class="topbar">
+    <a class="brand-wrap" href="#top" aria-label="MatchPulse home">
+      <span class="brand-mark">MP</span>
+      <span class="brand">MATCH<span>PULSE</span></span>
+    </a>
+    <nav class="nav-links">
+      <a href="#matches">Matches</a>
+      <a href="#how">How it works</a>
+      <a href="#disclaimer">Disclaimer</a>
+    </nav>
+    <div class="live-pill"><span></span> LIVE ANALYSIS</div>
+  </header>
+
+  <main id="top" class="container">
+    <section class="hero">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="dot"></span> TODAY'S CRICKET INSIGHTS</div>
+        <h1>Read the match.<br><span>Understand the game.</span></h1>
+        <p class="sub">Deep pitch, weather, team form, player matchups and score-range analysis — presented in a clean premium report.</p>
+        <div class="hero-actions">
+          <a class="hero-btn" href="#matches">Explore today's matches <span>↘</span></a>
+          <div class="trust-chip"><b>100%</b> analysis focused</div>
+        </div>
+      </div>
+      <div class="hero-panel">
+        <div class="panel-top"><span>INSIGHT SCORE</span><span class="live-mini">● UPDATED</span></div>
+        <div class="score-ring"><strong>68</strong><span>/100</span></div>
+        <div class="panel-caption">Sample match-readiness score</div>
+        <div class="mini-bars">
+          <div><span>Pitch</span><i><em style="width:78%"></em></i><b>78</b></div>
+          <div><span>Form</span><i><em style="width:72%"></em></i><b>72</b></div>
+          <div><span>Matchups</span><i><em style="width:64%"></em></i><b>64</b></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-head" id="matches">
+      <div>
+        <p class="eyebrow">MATCH CENTER</p>
+        <h2>Today's matches</h2>
+      </div>
+      <div class="date-chip">THU • 10 SEP 2026</div>
+    </section>
+
+    <section id="matches-grid" class="matches-grid"></section>
+
+    <section class="how" id="how">
+      <div class="how-title"><p class="eyebrow">SIMPLE FLOW</p><h2>Unlock your match report</h2></div>
+      <div class="steps">
+        <div class="step"><span>01</span><div><h3>Pick a match</h3><p>Open the match card and preview the available report sections.</p></div></div>
+        <div class="step"><span>02</span><div><h3>Choose access</h3><p>Use the premium payment flow or an approved rewarded-ad option.</p></div></div>
+        <div class="step"><span>03</span><div><h3>Read the report</h3><p>See pitch, conditions, form, matchups, score range and forecast notes.</p></div></div>
+      </div>
+    </section>
+
+    <section class="disclaimer" id="disclaimer">
+      <span class="shield">✓</span>
+      <div><strong>Analysis, not a guarantee.</strong><p>MatchPulse provides editorial and informational analysis only. Outcomes can change with toss, team selection, injuries and live match events. No fixed-result or guaranteed-win claims.</p></div>
+    </section>
+  </main>
+
+  <div id="modal" class="modal hidden" aria-hidden="true">
+    <div class="modal-card">
+      <button class="close" id="closeModal" aria-label="Close">×</button>
+      <div id="modalContent"></div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="footer-brand">MATCH<span>PULSE</span></div>
+    <span>© 2026 MatchPulse</span>
+    <span>Analysis only • No wagering • No guarantee</span>
+  </footer>
+
+  <script src="config.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
