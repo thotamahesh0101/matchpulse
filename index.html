@@ -8,7 +8,165 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="styles.css" /> 
+   <style>
+/* =========================
+   MATCHPULSE HOMEPAGE UPGRADE
+   Homepage only
+   ========================= */
+
+body {
+  background:
+    radial-gradient(circle at 10% 10%, rgba(139,92,246,.20), transparent 28%),
+    radial-gradient(circle at 90% 35%, rgba(36,214,255,.14), transparent 30%),
+    linear-gradient(180deg,#060713 0%,#080918 55%,#050610 100%);
+}
+
+/* HERO */
+.hero {
+  min-height: 520px;
+  padding: 70px 0 80px;
+}
+
+.hero-copy {
+  max-width: 720px;
+}
+
+.hero h1 {
+  font-size: clamp(48px, 6vw, 78px);
+  line-height: .96;
+}
+
+.hero .sub {
+  max-width: 650px;
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+/* Hero button */
+.hero-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 15px 22px;
+  border-radius: 14px;
+  font-size: 13px;
+  letter-spacing: .2px;
+}
+
+/* INSIGHT CARD */
+.hero-panel {
+  border: 1px solid rgba(255,255,255,.12);
+  background:
+    linear-gradient(145deg,
+      rgba(255,255,255,.08),
+      rgba(255,255,255,.025));
+  box-shadow:
+    0 30px 80px rgba(0,0,0,.45),
+    0 0 60px rgba(139,92,246,.08);
+  transform: translateY(-8px);
+}
+
+/* MATCH SECTION */
+.section-head {
+  margin-top: 10px;
+  margin-bottom: 28px;
+}
+
+.section-head h2 {
+  font-size: 34px;
+  letter-spacing: -1px;
+}
+
+/* MATCH CARDS */
+.matches-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+  min-height: 160px;
+}
+
+.match-card,
+.match-item {
+  border: 1px solid rgba(255,255,255,.10);
+  background:
+    linear-gradient(145deg,
+      rgba(255,255,255,.065),
+      rgba(255,255,255,.018));
+  border-radius: 20px;
+  padding: 24px;
+  transition: .25s ease;
+}
+
+.match-card:hover,
+.match-item:hover {
+  transform: translateY(-5px);
+  border-color: rgba(139,92,246,.45);
+  box-shadow: 0 20px 50px rgba(0,0,0,.28);
+}
+
+/* HOW IT WORKS */
+.how {
+  margin-top: 70px;
+  padding: 34px;
+  border-radius: 24px;
+  border: 1px solid rgba(255,255,255,.09);
+  background: rgba(255,255,255,.025);
+}
+
+.how-title h2 {
+  font-size: 30px;
+}
+
+/* DISCLAIMER */
+.disclaimer {
+  margin-top: 18px;
+  border-radius: 18px;
+}
+
+/* FOOTER */
+footer {
+  margin-top: 70px;
+  padding: 28px 6%;
+  border-top: 1px solid rgba(255,255,255,.08);
+}
+
+/* MOBILE */
+@media (max-width: 800px) {
+
+  .topbar {
+    padding: 0 5%;
+  }
+
+  .nav-links {
+    display: none;
+  }
+
+  .hero {
+    grid-template-columns: 1fr;
+    min-height: auto;
+    padding: 45px 0 55px;
+  }
+
+  .hero-panel {
+    max-width: 420px;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .matches-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .section-head {
+    align-items: flex-start;
+  }
+
+  .how {
+    padding: 24px;
+  }
+}
+</style>
 </head>
 <body>
   <div class="bg-orb orb-one"></div>
