@@ -5,42 +5,47 @@ const matches = [
     tournament: "International",
 
     team1: "India",
-    team2: "Australia",
+    team2: "Afganistan",
 
     time: "7:30 PM",
 
-    venue: "Rajiv Gandhi International Stadium",
+    venue: "Arun jaitly International Stadium",
 
-    city: "Hyderabad",
+    city: "Delhi",
 
     status: "UPCOMING",
 
     players1: [
-      "Player 1",
-      "Player 2",
-      "Player 3",
-      "Player 4",
-      "Player 5",
-      "Player 6",
-      "Player 7",
-      "Player 8",
-      "Player 9",
-      "Player 10",
-      "Player 11"
+     
+  "Shreyas Iyer",
+  "Abhishek Sharma",
+  "Vaibhav Sooryavanshi",
+  "Sanju Samson",
+  "Ishan Kishan",
+  "Tilak Varma",
+  "Shivam Dube",
+  "Nitish Kumar Reddy",
+  "Axar Patel",
+  "Washington Sundar",
+  "Varun Chakaravarthy",
+  "Ravi Bishnoi",
+  "Jasprit Bumrah",
+  "Arshdeep Singh",
+  "Yash Thakur"
     ],
 
     players2: [
-      "Player 1",
-      "Player 2",
-      "Player 3",
-      "Player 4",
-      "Player 5",
-      "Player 6",
-      "Player 7",
-      "Player 8",
-      "Player 9",
-      "Player 10",
-      "Player 11"
+  "Rahmanullah Gurbaz",
+  "Ibrahim Zadran",
+  "Rahmat Shah",
+  "Hashmatullah Shahidi",
+  "Azmatullah Omarzai",
+  "Mohammad Nabi",
+  "Gulbadin Naib",
+  "Rashid Khan",
+  "Mujeeb Ur Rahman",
+  "Fazalhaq Farooqi",
+  "Naveen-ul-Haq"
     ],
 
     analysis: `
