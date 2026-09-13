@@ -242,7 +242,11 @@
       matchesList.innerHTML =
         filteredMatches.map(match => `
 
-          <article class="match-item">
+          <article
+  class="match-item"
+  onclick="openMatch('${match.id}')"
+  style="cursor:pointer;"
+>
 
             <div class="match-league">
               ${match.tournament}
@@ -298,6 +302,10 @@
     });
 
     renderMatches();
+
+    function openMatch(matchId) {
+  window.location.href = `match-detail.html?id=${matchId}`;
+}
   </script>
 
 </body>
