@@ -1,6 +1,6 @@
 const matches = [
   {
-    id: "india-australia",
+    id: "afghanistan-india",
 
     tournament: "International",
 
