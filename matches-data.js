@@ -14,6 +14,7 @@ const matches = [
     city: "Delhi",
 
     status: "UPCOMING",
+    link: "https://crex.com/cricket-live-score/afg-vs-ind-3rd-t20-afghanistan-vs-india-in-india-2026-match-updates-13IZ",
 
     players1: [
      
