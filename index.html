@@ -3,10 +3,7 @@
 <head>
   <meta charset="UTF-8">
 
-  <meta
-    name="viewport"
-    content="width=device-width, initial-scale=1.0"
-  >
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <title>MatchPulse | Cricket Matches & Insights</title>
 
@@ -18,12 +15,6 @@
   <link rel="stylesheet" href="styles.css">
 
   <style>
-
-    /* =====================================================
-       MATCHPULSE CRICKET HOMEPAGE
-       Light White + Blue Cricket Design
-       ===================================================== */
-
     * {
       box-sizing: border-box;
     }
@@ -45,12 +36,9 @@
       position: sticky;
       top: 0;
       z-index: 1000;
-
       height: 72px;
-
       background: rgba(255,255,255,0.96);
       border-bottom: 1px solid #e5eaf1;
-
       display: flex;
       align-items: center;
     }
@@ -58,7 +46,6 @@
     .mp-header-inner {
       width: min(1180px, 92%);
       margin: auto;
-
       display: flex;
       align-items: center;
       justify-content: space-between;
@@ -68,7 +55,6 @@
       display: flex;
       align-items: center;
       gap: 10px;
-
       color: #0f172a;
       font-weight: 800;
       letter-spacing: .5px;
@@ -78,15 +64,11 @@
     .mp-logo-box {
       width: 38px;
       height: 38px;
-
       border-radius: 11px;
-
       background: #1769e0;
       color: white;
-
       display: grid;
       place-items: center;
-
       font-weight: 800;
     }
 
@@ -110,16 +92,11 @@
       display: flex;
       align-items: center;
       gap: 7px;
-
       padding: 9px 14px;
-
       border-radius: 999px;
-
       background: #effaf3;
       border: 1px solid #c8efd6;
-
       color: #16803c;
-
       font-size: 12px;
       font-weight: 700;
     }
@@ -131,12 +108,10 @@
       background: #16a34a;
     }
 
-
     /* ================= HERO ================= */
 
     .mp-hero {
       width: 100%;
-
       min-height: 470px;
 
       background:
@@ -155,9 +130,7 @@
     .mp-hero-inner {
       width: min(1180px, 92%);
       margin: auto;
-
       min-height: 470px;
-
       display: flex;
       align-items: center;
     }
@@ -170,15 +143,11 @@
       display: inline-flex;
       align-items: center;
       gap: 8px;
-
       color: #1769e0;
-
       font-size: 12px;
       font-weight: 800;
-
       letter-spacing: 1.5px;
       text-transform: uppercase;
-
       margin-bottom: 18px;
     }
 
@@ -186,18 +155,14 @@
       width: 8px;
       height: 8px;
       border-radius: 50%;
-
       background: #1769e0;
     }
 
     .mp-hero h1 {
       margin: 0;
-
       font-size: clamp(46px, 6vw, 72px);
       line-height: .98;
-
       letter-spacing: -3px;
-
       color: #0b1f3a;
     }
 
@@ -207,11 +172,8 @@
 
     .mp-hero-text {
       margin-top: 22px;
-
       max-width: 530px;
-
       color: #52647a;
-
       font-size: 16px;
       line-height: 1.7;
     }
@@ -219,7 +181,6 @@
     .mp-hero-buttons {
       display: flex;
       gap: 12px;
-
       margin-top: 28px;
     }
 
@@ -227,17 +188,12 @@
       display: inline-flex;
       align-items: center;
       gap: 10px;
-
       padding: 14px 22px;
-
       border-radius: 12px;
-
       background: #1769e0;
       color: white;
-
       font-size: 14px;
       font-weight: 700;
-
       box-shadow: 0 10px 25px rgba(23,105,224,.20);
     }
 
@@ -248,20 +204,14 @@
     .mp-secondary-btn {
       display: inline-flex;
       align-items: center;
-
       padding: 14px 20px;
-
       border-radius: 12px;
-
       background: white;
       border: 1px solid #dbe3ed;
-
       color: #334155;
-
       font-size: 14px;
       font-weight: 700;
     }
-
 
     /* ================= MATCH CENTER ================= */
 
@@ -278,77 +228,58 @@
       display: flex;
       align-items: end;
       justify-content: space-between;
-
       margin-bottom: 24px;
     }
 
     .mp-heading-left small {
       display: block;
-
       margin-bottom: 7px;
-
       color: #1769e0;
-
       font-size: 11px;
       font-weight: 800;
-
       letter-spacing: 1.5px;
       text-transform: uppercase;
     }
 
     .mp-heading-left h2 {
       margin: 0;
-
       color: #0f172a;
-
       font-size: 32px;
       letter-spacing: -1px;
     }
 
     .mp-heading-left p {
       margin: 8px 0 0;
-
       color: #64748b;
       font-size: 14px;
     }
 
     .mp-date {
       padding: 9px 13px;
-
       border-radius: 10px;
-
       background: white;
       border: 1px solid #e2e8f0;
-
       color: #64748b;
-
       font-size: 12px;
       font-weight: 700;
     }
-
 
     /* ================= FILTERS ================= */
 
     .mp-filters {
       display: flex;
       gap: 8px;
-
       margin-bottom: 20px;
     }
 
     .mp-filter {
       padding: 9px 15px;
-
       border-radius: 999px;
-
       background: white;
       border: 1px solid #dbe3ed;
-
       color: #64748b;
-
       font-size: 12px;
       font-weight: 700;
-
       cursor: pointer;
     }
 
@@ -358,59 +289,42 @@
       color: white;
     }
 
-
     /* ================= MATCH CARDS ================= */
 
     .mp-match-grid {
       display: grid;
-
-      grid-template-columns:
-        repeat(3, minmax(0, 1fr));
-
+      grid-template-columns: repeat(3, minmax(0, 1fr));
       gap: 18px;
     }
 
     .mp-match-card {
       background: white;
-
       border: 1px solid #e2e8f0;
       border-radius: 18px;
-
       overflow: hidden;
-
-      box-shadow:
-        0 7px 25px rgba(15,23,42,.05);
-
+      box-shadow: 0 7px 25px rgba(15,23,42,.05);
       transition: .2s ease;
     }
 
     .mp-match-card:hover {
       transform: translateY(-4px);
-
       border-color: #9cc4f8;
-
-      box-shadow:
-        0 15px 35px rgba(23,105,224,.10);
+      box-shadow: 0 15px 35px rgba(23,105,224,.10);
     }
 
     .mp-card-top {
       display: flex;
       align-items: center;
       justify-content: space-between;
-
       padding: 15px 17px;
-
       border-bottom: 1px solid #eef2f7;
     }
 
     .mp-status {
       padding: 5px 9px;
-
       border-radius: 999px;
-
       font-size: 10px;
       font-weight: 800;
-
       letter-spacing: .5px;
     }
 
@@ -431,18 +345,14 @@
 
     .mp-format {
       color: #94a3b8;
-
       font-size: 11px;
       font-weight: 700;
     }
 
     .mp-teams {
       display: grid;
-
       grid-template-columns: 1fr auto 1fr;
-
       align-items: center;
-
       padding: 24px 18px 18px;
     }
 
@@ -452,47 +362,36 @@
 
     .mp-team-name {
       color: #0f172a;
-
       font-size: 16px;
       font-weight: 800;
     }
 
     .mp-team-score {
       margin-top: 6px;
-
       color: #64748b;
-
       font-size: 13px;
     }
 
     .mp-team-flag {
       width: 42px;
       height: 42px;
-
       margin: 0 auto 9px;
-
       border-radius: 50%;
-
       display: grid;
       place-items: center;
-
       background: #eff6ff;
-
       font-size: 22px;
     }
 
     .mp-vs {
       color: #94a3b8;
-
       font-size: 11px;
       font-weight: 800;
     }
 
     .mp-card-info {
       padding: 0 18px 17px;
-
       color: #64748b;
-
       font-size: 12px;
       line-height: 1.7;
     }
@@ -504,18 +403,12 @@
 
     .mp-view-btn {
       display: block;
-
       margin: 0 16px 16px;
-
       padding: 11px;
-
       border-radius: 10px;
-
       text-align: center;
-
       background: #eff6ff;
       color: #1769e0;
-
       font-size: 12px;
       font-weight: 800;
     }
@@ -524,8 +417,7 @@
       background: #dbeafe;
     }
 
-
-    /* ================= FEATURED AREA ================= */
+    /* ================= FEATURED ================= */
 
     .mp-feature-section {
       padding: 55px 0;
@@ -533,17 +425,13 @@
 
     .mp-feature-grid {
       display: grid;
-
       grid-template-columns: 1.6fr 1fr;
-
       gap: 18px;
     }
 
     .mp-feature-card {
       min-height: 260px;
-
       padding: 28px;
-
       border-radius: 20px;
 
       background:
@@ -554,90 +442,67 @@
         );
 
       color: white;
-
       position: relative;
-
       overflow: hidden;
     }
 
     .mp-feature-card::after {
       content: "🏏";
-
       position: absolute;
-
       right: 25px;
       bottom: -20px;
-
       font-size: 150px;
-
       opacity: .13;
     }
 
     .mp-feature-card small {
       font-size: 11px;
       font-weight: 800;
-
       letter-spacing: 1.5px;
     }
 
     .mp-feature-card h2 {
       max-width: 500px;
-
       margin: 13px 0;
-
       font-size: 32px;
       line-height: 1.1;
     }
 
     .mp-feature-card p {
       max-width: 510px;
-
       color: rgba(255,255,255,.82);
-
       font-size: 14px;
       line-height: 1.7;
     }
 
     .mp-feature-link {
       display: inline-block;
-
       margin-top: 10px;
-
       color: white;
-
       font-size: 13px;
       font-weight: 800;
     }
-
 
     /* ================= WIN PROBABILITY ================= */
 
     .mp-probability {
       padding: 26px;
-
       border-radius: 20px;
-
       background: white;
-
       border: 1px solid #e2e8f0;
-
       box-shadow: 0 7px 25px rgba(15,23,42,.05);
     }
 
     .mp-probability small {
       color: #1769e0;
-
       font-size: 11px;
       font-weight: 800;
-
       letter-spacing: 1.3px;
     }
 
     .mp-probability h3 {
       margin: 8px 0 25px;
-
       color: #0f172a;
-
       font-size: 22px;
     }
 
@@ -648,37 +513,28 @@
     .mp-prob-title {
       display: flex;
       justify-content: space-between;
-
       margin-bottom: 7px;
-
       color: #334155;
-
       font-size: 13px;
       font-weight: 700;
     }
 
     .mp-bar {
       height: 9px;
-
       overflow: hidden;
-
       border-radius: 999px;
-
       background: #e8eef6;
     }
 
     .mp-bar-fill {
       height: 100%;
-
       border-radius: 999px;
-
       background: #1769e0;
     }
 
-    .mp-bar-fill.australia {
+    .mp-bar-fill.afghanistan {
       background: #f2b84b;
     }
-
 
     /* ================= INSIGHTS ================= */
 
@@ -688,73 +544,53 @@
 
     .mp-insight-grid {
       display: grid;
-
-      grid-template-columns:
-        repeat(3, minmax(0,1fr));
-
+      grid-template-columns: repeat(3, minmax(0,1fr));
       gap: 16px;
     }
 
     .mp-insight {
       padding: 22px;
-
       border-radius: 17px;
-
       background: white;
-
       border: 1px solid #e2e8f0;
-
       box-shadow: 0 5px 20px rgba(15,23,42,.04);
     }
 
     .mp-insight-icon {
       width: 38px;
       height: 38px;
-
       display: grid;
       place-items: center;
-
       border-radius: 10px;
-
       background: #eff6ff;
-
       margin-bottom: 14px;
     }
 
     .mp-insight h3 {
       margin: 0 0 8px;
-
       color: #0f172a;
-
       font-size: 15px;
     }
 
     .mp-insight p {
       margin: 0;
-
       color: #64748b;
-
       font-size: 12px;
       line-height: 1.7;
     }
-
 
     /* ================= FOOTER ================= */
 
     .mp-footer {
       margin-top: 20px;
-
       padding: 28px 0;
-
       background: white;
-
       border-top: 1px solid #e2e8f0;
     }
 
     .mp-footer-inner {
       width: min(1180px,92%);
       margin: auto;
-
       display: flex;
       justify-content: space-between;
       align-items: center;
@@ -762,17 +598,14 @@
 
     .mp-footer-brand {
       color: #0f172a;
-
       font-size: 14px;
       font-weight: 800;
     }
 
     .mp-footer-text {
       color: #94a3b8;
-
       font-size: 11px;
     }
-
 
     /* ================= MOBILE ================= */
 
@@ -789,7 +622,7 @@
             rgba(255,255,255,.96),
             rgba(255,255,255,.72)
           ),
-          url("cricket-hero.jpg") center / cover no-repeat;
+          url("cricket-hero.jpg.png") center / cover no-repeat;
       }
 
       .mp-hero-inner {
@@ -817,14 +650,17 @@
       .mp-hero h1 {
         font-size: 48px;
       }
-    }
 
+      .mp-footer-inner {
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+      }
+    }
   </style>
 </head>
 
-
 <body>
-
 
   <!-- ================= HEADER ================= -->
 
@@ -842,27 +678,17 @@
 
       </a>
 
-
       <nav class="mp-nav">
 
-        <a href="index.html">
-          Home
-        </a>
+        <a href="index.html">Home</a>
 
-        <a href="matches.html">
-          Matches
-        </a>
+        <a href="matches.html">Matches</a>
 
-        <a href="#featured">
-          Teams
-        </a>
+        <a href="#featured">Teams</a>
 
-        <a href="#insights">
-          Insights
-        </a>
+        <a href="#insights">Insights</a>
 
       </nav>
-
 
       <div class="mp-live">
 
@@ -875,7 +701,6 @@
     </div>
 
   </header>
-
 
 
   <!-- ================= HERO ================= -->
@@ -894,7 +719,6 @@
 
         </div>
 
-
         <h1>
 
           Every Match.<br>
@@ -902,7 +726,6 @@
           <strong>Every Insight.</strong>
 
         </h1>
-
 
         <p class="mp-hero-text">
 
@@ -912,28 +735,21 @@
 
         </p>
 
-
         <div class="mp-hero-buttons">
 
           <a
             href="matches.html"
             class="mp-primary-btn"
           >
-
             Explore Matches
-
             <span>→</span>
-
           </a>
-
 
           <a
             href="#featured"
             class="mp-secondary-btn"
           >
-
             Match Insights
-
           </a>
 
         </div>
@@ -945,32 +761,25 @@
   </section>
 
 
-
   <!-- ================= MATCH CENTER ================= -->
 
   <section class="mp-match-section">
 
     <div class="mp-section">
 
-
       <div class="mp-section-heading">
 
         <div class="mp-heading-left">
 
-          <small>
-            Match Center
-          </small>
+          <small>Match Center</small>
 
-          <h2>
-            Today's Matches
-          </h2>
+          <h2>Today's Matches</h2>
 
           <p>
             Live scores, upcoming fixtures and match details.
           </p>
 
         </div>
-
 
         <div class="mp-date">
           TODAY
@@ -979,32 +788,34 @@
       </div>
 
 
+      <!-- FILTERS -->
+
       <div class="mp-filters">
 
         <button
           class="mp-filter active"
-          onclick="showMatches('all')"
+          onclick="showMatches('all', this)"
         >
           All
         </button>
 
         <button
           class="mp-filter"
-          onclick="showMatches('live')"
+          onclick="showMatches('live', this)"
         >
           Live
         </button>
 
         <button
           class="mp-filter"
-          onclick="showMatches('upcoming')"
+          onclick="showMatches('upcoming', this)"
         >
           Upcoming
         </button>
 
         <button
           class="mp-filter"
-          onclick="showMatches('completed')"
+          onclick="showMatches('completed', this)"
         >
           Completed
         </button>
@@ -1012,7 +823,7 @@
       </div>
 
 
-      <!-- MATCH CARDS -->
+      <!-- ================= MATCH CARDS ================= -->
 
       <div
         class="mp-match-grid"
@@ -1020,13 +831,11 @@
       >
 
 
-        <!-- INDIA VS Afganistan-->
+        <!-- FIRST MATCH : INDIA VS AFGHANISTAN -->
 
         <article
           class="mp-match-card"
           data-status="upcoming"
-          onclick="openIndiaAustralia()"
-          style="cursor:pointer;"
         >
 
           <div class="mp-card-top">
@@ -1043,7 +852,6 @@
 
 
           <div class="mp-teams">
-
 
             <div class="mp-team">
 
@@ -1070,12 +878,11 @@
             <div class="mp-team">
 
               <div class="mp-team-flag">
-                🇦🇺
+                🇦🇫
               </div>
 
               <div class="mp-team-name">
-                afganistan
-                
+                Afghanistan
               </div>
 
               <div class="mp-team-score">
@@ -1083,7 +890,6 @@
               </div>
 
             </div>
-
 
           </div>
 
@@ -1095,25 +901,31 @@
             </div>
 
             <div>
-              📍 Rajiv Gandhi International Stadium
+              📍 Arun Jaitley Stadium
             </div>
 
             <div>
-              📌 Hyderabad
+              📌 Delhi
             </div>
 
           </div>
 
 
-          <div class="mp-view-btn">
+          <!-- DIRECT CREX LINK -->
+
+          <a
+            href="https://crex.com/cricket-live-score/afg-vs-ind-3rd-t20-afghanistan-vs-india-in-india-2026-match-updates-13IZ"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="mp-view-btn"
+          >
             View Match →
-          </div>
+          </a>
 
         </article>
 
 
-
-        <!-- SECOND SAMPLE MATCH -->
+        <!-- SECOND MATCH -->
 
         <article
           class="mp-match-card"
@@ -1134,7 +946,6 @@
 
 
           <div class="mp-teams">
-
 
             <div class="mp-team">
 
@@ -1174,7 +985,6 @@
 
             </div>
 
-
           </div>
 
 
@@ -1202,8 +1012,7 @@
         </article>
 
 
-
-        <!-- THIRD SAMPLE MATCH -->
+        <!-- THIRD MATCH -->
 
         <article
           class="mp-match-card"
@@ -1224,7 +1033,6 @@
 
 
           <div class="mp-teams">
-
 
             <div class="mp-team">
 
@@ -1264,7 +1072,6 @@
 
             </div>
 
-
           </div>
 
 
@@ -1291,13 +1098,11 @@
 
         </article>
 
-
       </div>
 
     </div>
 
   </section>
-
 
 
   <!-- ================= FEATURED ================= -->
@@ -1319,7 +1124,7 @@
           </small>
 
           <h2>
-            India vs Afganistan
+            India vs Afghanistan
           </h2>
 
           <p>
@@ -1331,7 +1136,9 @@
           </p>
 
           <a
-            href="match-detail.html?id=india-australia"
+            href="https://crex.com/cricket-live-score/afg-vs-ind-3rd-t20-afghanistan-vs-india-in-india-2026-match-updates-13IZ"
+            target="_blank"
+            rel="noopener noreferrer"
             class="mp-feature-link"
           >
             Open Match Report →
@@ -1340,6 +1147,7 @@
         </div>
 
 
+        <!-- WIN PROBABILITY -->
 
         <div class="mp-probability">
 
@@ -1383,7 +1191,7 @@
             <div class="mp-prob-title">
 
               <span>
-                🇦🇺 Australia
+                🇦🇫 Afghanistan
               </span>
 
               <strong>
@@ -1395,7 +1203,7 @@
             <div class="mp-bar">
 
               <div
-                class="mp-bar-fill australia"
+                class="mp-bar-fill afghanistan"
                 style="width:37%"
               ></div>
 
@@ -1418,13 +1226,11 @@
 
         </div>
 
-
       </div>
 
     </div>
 
   </section>
-
 
 
   <!-- ================= INSIGHTS ================= -->
@@ -1435,7 +1241,6 @@
   >
 
     <div class="mp-section">
-
 
       <div class="mp-section-heading">
 
@@ -1514,13 +1319,11 @@
 
         </div>
 
-
       </div>
 
     </div>
 
   </section>
-
 
 
   <!-- ================= FOOTER ================= -->
@@ -1545,56 +1348,36 @@
   </footer>
 
 
-
   <!-- ================= JAVASCRIPT ================= -->
 
   <script>
 
-   function openIndiaAustralia() {
-  window.open(
-    "https://crex.com/cricket-live-score/afg-vs-ind-3rd-t20-afghanistan-vs-india-in-india-2026-match-updates-13IZ",
-    "_blank"
-  );
-}
-
-
-    function showMatches(status) {
+    function showMatches(status, button) {
 
       const cards =
-        document.querySelectorAll(
-          ".mp-match-card"
-        );
+        document.querySelectorAll(".mp-match-card");
 
       const buttons =
-        document.querySelectorAll(
-          ".mp-filter"
-        );
+        document.querySelectorAll(".mp-filter");
 
 
-      buttons.forEach(button => {
-
-        button.classList.remove("active");
-
+      buttons.forEach(function(btn) {
+        btn.classList.remove("active");
       });
 
 
-      event.target.classList.add("active");
+      if (button) {
+        button.classList.add("active");
+      }
 
 
-      cards.forEach(card => {
+      cards.forEach(function(card) {
 
         if (status === "all") {
 
           card.style.display = "block";
 
-          return;
-
-        }
-
-
-        if (
-          card.dataset.status === status
-        ) {
+        } else if (card.dataset.status === status) {
 
           card.style.display = "block";
 
@@ -1609,7 +1392,6 @@
     }
 
   </script>
-
 
 </body>
 </html>
